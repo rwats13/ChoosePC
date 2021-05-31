@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shopping Cart | ChoosePC</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Reece Watson">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/ChoosePCStyleSheet.css">
+</head>
+
+<body>
+	<div class="body-padding">
+		<div class="header">
+			<div class="logo">
+				<a href="#" title="Home">
+					<img src="images/html-shopping-basket-logo-01.png" alt="ChoosePC Logo">
+				</a>
+				<p class="logo-text">ChoosePC</p>
+			</div>
+			<div class="navbar">
+				<div class="cart-button">
+					<a href="ShoppingCartPage.html" title="Return to your Cart">
+						<img src="images/ShoppingCartIcon.png" alt="Return to Cart">
+					</a>
+				</div>
+				<!-- TOP SELLERS -->
+				<div class="dropdown">
+					<a class="navitem" href="#">TOP SELLERS ▾</a>
+					<div class="dropdown-content">
+						<a href="#">Motherboards</a>
+						<a href="#">CPUs</a>
+						<a href="#">Graphics Cards</a>
+						<a href="#">Sound Cards</a>
+						<a href="#">Cooling Systems</a>
+						<a href="#">Hard Drives</a>
+					</div>
+				</div>
+				
+				<!-- NEW RELEASES -->
+				<div class="dropdown">
+					<a class="navitem" href="#">NEW RELEASES ▾</a>
+					<div class="dropdown-content">
+						<a href="#">Motherboards</a>
+						<a href="#">CPUs</a>
+						<a href="#">Graphics Cards</a>
+						<a href="#">Sound Cards</a>
+						<a href="#">Cooling Systems</a>
+						<a href="#">Hard Drives</a>
+					</div>
+				</div>
+
+				<!-- YOUR WISHLISTS -->
+				<div class="dropdown">
+					<a class="navitem" href="ListManagerPage.html">YOUR WISHLISTS ▾</a>
+					<div class="dropdown-content">
+						<a href="MainWishlistPage.html">Main Wishlist</a>
+						<a href="#">Dream PC</a>
+						<a href="#">Stuff to show Dave</a>
+					</div>
+				</div>
+				
+				<!-- YOUR PROFILE -->
+				<div class="dropdown">
+					<a class="navitem" href="#">YOUR PROFILE ▾</a>
+					<div class="dropdown-content">
+						<a href="#">Account Settings</a>
+						<a href="#">Payment Information</a>
+						<a href="#">Order History</a>
+						<a href="#">Notifications</a>
+						<a href="LoginPage.html">Log Out</a>
+					</div>
+				</div>
+				<div>
+					<input class="searchbar" type="text" placeholder="Search products...">
+				</div>
+				<div>
+					<button class="searchbutton" type="submit" title="Search">&#128269;</button>
+				</div>
+			</div>
+		</div>
+		
+		<h1 class="pageheading">Your Shopping Cart <i>(3 items)</i></h1>
+
+		<div class="cartpagebody">
+			<div class="shoppingcarttopbuttons">
+				<div class="continue-shopping">
+					<button class="searchbutton" type="button" title="Continue Shopping">
+						<b>CONTINUE SHOPPING</b>
+					</button>
+				</div>
+				<div>
+					<button class="searchbutton" type="button" title="Remove selected items from your cart">
+						<b>REMOVE SELECTED</b>
+					</button>
+				</div>
+			</div>
+			<div class="shoppingcarttable table-padright">
+				<table class="border-collapse">
+					<tr class="table-heading">
+						<th></th>
+						<th></th>
+						<th>Item</th>
+						<th>Quantity</th>
+						<th>Price inc. GST</th>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox">
+						</td>
+						<td>
+							<img src="images/CPU.jpg" alt="AMD Ryzen CPU">
+						</td>
+						<td>
+							<a class="pagelinks" href="ProductPage.html">AMD Ryzen 5</a>
+							<p>Here is the new AMD Ryzen CPU, best on the market.</p>
+						</td>
+						<td>
+							<button class="quantitybutton" type="button">&#10134;</button>
+							1
+							<button class="quantitybutton" type="button">&#10133;</button>
+						</td>
+						<td>
+							$299.00
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox">
+						</td>
+						<td>
+							<img src="images/GraphicsCard.jpg" alt="ASUS RTX2060 GPU">
+						</td>
+						<td>
+							<a class="pagelinks" href="#">ASUS RTX2060 6GB Graphics Card</a>
+							<p>Here is the new ASUS RTX2060 Graphics Card, best on the market.</p>
+							
+						</td>
+						<td>
+							<button class="quantitybutton" type="button">&#10134;</button>
+							2
+							<button class="quantitybutton" type="button">&#10133;</button>
+						</td>
+						<td>
+							$999.00
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox">
+						</td>
+						<td>
+							<img src="images/Motherboard.jpg" alt="ASUS S1200 Motherboard">
+						</td>
+						<td>
+							<a class="pagelinks" href="#">ASUS S1200 MicroATX Motherboard</a>
+							<p>Here is the new ASUS S1200 Motherboard, best on the market.</p>
+							<p class="current-sale">~~ On Sale! 25% off ~~</p>
+						</td>
+						<td>
+							<button class="quantitybutton" type="button">&#10134;</button>
+							1
+							<button class="quantitybutton" type="button">&#10133;</button>
+						</td>
+						<td>
+							<p><b>$111.75</b></p>
+							<sup><del>$149.00</del></sup>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<!-- PAYMENT INFO BOX -->
+		<div class="paymentfooter table-padright">
+			<div>
+				<table>
+					<tr>
+						<td class="paymentinfo">Subtotal</td>
+						<td>$2,189.77</td>
+					</tr>
+					<tr>
+						<td class="paymentinfo">GST</td>
+						<td>$218.98</td>
+					</tr>
+					<tr>
+						<td class="paymentinfo"><b>Total</b></td>
+						<td><b>$2,408.75</b></td>
+					</tr>
+				</table>
+			</div>
+			<div>
+				<input class="discountcode" type="text" placeholder="Enter Discount Code Here!">
+				<button class="discountbutton" type="submit" title="Check your discount code">Check Discount</button>
+			</div>
+			<div>
+				<button class="checkoutbutton" type="button" title="Checkout only the selected items in your cart">Checkout Selected</button>
+				<button class="checkoutbutton" type="button" onclick="location.href='PaymentPage.html'" title="Checkout all items in your cart">Checkout ALL</button>
+			</div>
+		</div>
+
+		<!-- HELP LINKS BAR -->
+		<div class="helplinks">
+			<div class="customersupport">
+				<a class="pagelinks" href="#" title="Customer Support">Customer Support</a> 
+			</div>
+			<div>
+				<a class="pagelinks" href="#" title="FAQs">FAQs</a>
+				/
+				<a class="pagelinks" href="#" title="Help">Help</a>
+				/
+				<a class="pagelinks" href="#" title="Contact Us">Contact Us</a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

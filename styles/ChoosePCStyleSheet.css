@@ -1,0 +1,436 @@
+body {
+    background-color:#304370;
+    color:white;
+    font-family:verdana;
+}
+img {
+    width:180px;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.logo {
+	margin: 15px 0 15px 15px;
+	background-color: #699cc9;
+	border-radius: 18px;
+    padding: 0 10px 0 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/* LOGIN PAGE */
+.center {
+    text-align: center;
+}
+.center-textalign {
+    text-align: center;
+}
+.login-logo {
+    width: 250px;
+}
+.margin-auto {
+    margin: auto;
+}
+.margin-auto td {
+    padding-bottom: 20px;
+	padding-left: 5px;
+}
+.align-right {
+    text-align:right;
+}
+.align-left {
+    text-align:left;
+}
+.headertext {
+    margin-top:30px;
+    margin-bottom:70px;
+    font-weight:100;
+}
+.headertext span {
+    color: #FFB300;
+}
+.emailandpasswordbox {
+    height: 30px;
+    width: 350px;
+    font-size: 16px;
+    border-radius:8px;
+}
+.loginbutton {
+    width:200px;
+    height:35px;
+    font-size:20px;
+    border-radius:8px;
+    background-color:#FFB300;
+}
+.loginbutton:hover {
+    background-color:#d99800;
+}
+.loginfooter {
+    position:fixed;
+    bottom:0;
+    right:0;
+    left:0;
+}
+.body-padding {
+    padding-bottom: 200px;
+}
+
+/* LOGO, NAV BAR, SEARCH BAR, PAGE HEADING, BUTTONS */
+.logo img {
+    width: 180px;
+}
+.logo-text {
+    text-align: center; 
+    color: #FFB300; 
+    font-weight: bold; 
+    font-size: 20px; 
+    margin-top: 1px;
+}
+.cart-button {
+    width: 220px;
+}
+.cart-button img {
+    width: 50px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #699cc9;
+    width: 100%;
+    justify-content: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.navitem {
+    margin: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #304370;
+    background-color: #FFB300;
+	padding:15px;
+	border-radius: 8px;
+	font-weight: bold;
+	position: relative;
+	display: inline-block;
+	border:1px solid #FFB300;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.navitem:hover {
+    border:1px solid black;
+}
+.navitem:active {
+    color:yellow;
+}
+button:hover {
+    background-color:#d99800;
+}
+.pagelinks {
+    text-decoration: none;
+    color: #FFB300;
+    font-weight: bold;
+}
+.pagelinks:hover {   
+    border-bottom:1px solid;
+}
+.pagelinks:active {
+    color:yellow;
+}
+.searchbar {
+	margin-left: 50px;
+	height: 30px;
+    font-size: 16px;
+	width: 300px;
+    border-radius: 6px;
+}
+.searchbutton {
+    background-color:#FFB300; 
+    border-radius:8px;
+    padding:10px;
+    color: #304370;
+    margin-right: 10px;
+}
+.quantitybutton {
+    background-color:#FFB300; 
+    border-radius:8px;
+    padding: 5px;
+}
+.checkoutbutton {
+    background-color:#FFB300; 
+    border-radius:8px;
+    padding:10px;
+    color: #304370;
+    font-weight: bold;
+}
+.pageheading {
+    padding-left: 450px;
+    padding-bottom: 30px;
+}
+.helplinks {
+    background-color: #699cc9;
+    padding: 15px 25px;
+    margin-top: 50px;
+    position: fixed;
+    bottom:0px; 
+    left: 15px; 
+    right:15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* SHOPPING CART ONLY */
+.table-padright td {
+    padding-right: 75px;
+}
+.cartpagebody {
+    border: 5px solid #699cc9;
+    border-radius: 8px;
+    margin: 0 50px;
+    padding: 20px;
+}
+.cartpagebody img {
+    width: 180px;
+    margin-left: 20px;
+}
+.shoppingcarttable {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.border-collapse {
+    border-collapse: collapse;
+}
+.table-heading {
+    background-color: #699cc9;
+    text-align: left;
+}
+.table-heading th {
+    padding: 15px 0;
+}
+.shoppingcarttopbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;		
+}
+.continue-shopping {
+    margin-right: 500px;
+}
+.wishlist-top-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.center-button {
+    margin: 0 90px;
+}
+.paymentfooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed; 
+    bottom: 38px;
+    left: 58px; 
+    right: 58px;
+    border-radius: 8px;
+    background-color:#699cc9; 
+    padding: 30px;
+    color:#FFB300;
+}
+.paymentinfo {
+    text-align: right;
+}
+.discountcode {
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+.discountbutton {
+    height: 30px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color:#FFB300; 
+    border-radius:8px;
+    color: #304370;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover { background-color: #ddd; }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.purchased-item {
+    color: grey;
+    text-decoration-line: line-through;
+}
+.purchased-item-image {
+    opacity: 40%;
+}
+
+/* PRODUCT PAGE */
+.brand-banner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.brand-banner img {
+    width: 800px;
+    height: 160px;
+    border-radius: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.productbody {
+    display: flex;
+    justify-content: center;
+    /*margin-right: 750px; */
+}
+.product-images {
+    margin-right: 150px;
+}
+.product-mainimage img {
+    width: 400px;
+}
+/*.product-mainimage img:hover {
+    width: 1000px;
+} */
+.product-subimages img {
+    width: 100px;
+}
+.quanbutton-margin {
+    margin: 0 0 20px 30px;
+}
+.addto-buttons {
+    background-color:#FFB300; 
+    border-radius:8px;
+    padding:10px;
+    color: #304370;
+    font-weight: bold;
+}
+.product-specs {
+    margin-top: 70px;
+}
+.product-specs table {
+    border: 3px solid #FFB300;
+    width: 500px;
+    border-collapse: collapse;
+}
+.product-specs th {
+    border-bottom: 3px solid #FFB300;
+    background-color: #FFB300;
+    color: #304370;
+}
+
+/* RETAILER PAGE */
+.current-sale {
+    color:rgb(0, 201, 0);
+    font-weight: bold;
+}
+.upcoming-sale {
+    color:yellow;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* LIST MANAGER PAGE */
+.wishlist-grid {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 500px; */
+}
+.wishlist-box {
+    border: 5px solid #699cc9;
+    background-color: #699cc9;
+    border-radius: 8px;
+    height: 250px;
+    width: 350px;
+    margin: 0 60px 45px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.addnew-wishlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addnew-wishlist button {
+    border-radius:90px; 
+    width: 110px; 
+    height: 110px; 
+    background-color: #5180b5;
+    color: #FFB300;
+    font-size: 70px;
+    border: 3px solid #5180b5;
+}
+.wishlist-box h2 {
+    color: #FFB300;
+    text-align: center;
+}
+.addnew-wishlist button:active{
+    background-color: #3e5f91;
+}
+.margin-right {
+    margin-right: 1020px;
+}
+.wishlist-grid p {
+    margin: 15px;
+}
+.wishlist-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 30px;
+    background-color:#5180b5;
+    padding: 6px 0;
+    border-radius: 8px;
+  
+}
+.wishlist-buttons button {
+    background-color:#FFB300; 
+    border-radius:8px;
+    padding: 5px 10px;    
+}
+.wishlist-buttons button:hover {
+    background-color:#d99800;
+}
+
+/* PAYMENT PAGE */
+.payment-page-body {
+    border: 5px solid #699cc9;
+    background-color: #699cc9;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 1000px;
+}
+
+.payment-delivery-info {
+    border: 3px solid #699cc9;
+    background-color: #304370;
+    border-radius: 8px;
+    padding: 20px;
+}
+.pay-options-img {
+    width: 70px;
+    height: 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Your Store | ChoosePC</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Reece Watson">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/ChoosePCStyleSheet.css">
+</head>
+
+<body>
+	<div class="body-padding">
+		<div class="header">
+			<div class="logo">
+				<img src="images/html-shopping-basket-logo-01.png" alt="ChoosePC Logo">
+				<p class="logo-text">ChoosePC</p>
+			</div>
+			<div class="navbar">
+
+				<!-- ORDERS -->
+				<div class="dropdown">
+					<a class="navitem" href="#">ORDERS ▾</a>
+					<div class="dropdown-content">
+						<a href="#">Pending Orders</a>
+						<a href="#">Shipped Orders</a>
+						<a href="#">Manage Reviews</a>
+					</div>
+				</div>
+
+				<!-- YOUR STORE -->
+				<div class="dropdown">
+					<a class="navitem" href="#">YOUR STORE ▾</a>
+					<div class="dropdown-content">
+						<a href="#">Manage Discounts</a>
+						<a href="#">Change Banner</a>
+						<a href="#">Analytics</a>
+					</div>
+				</div>
+				
+				<!-- YOUR PROFILE -->
+				<div class="dropdown">
+					<a class="navitem" href="#">YOUR PROFILE ▾</a>
+					<div class="dropdown-content">
+						<a href="#">Account Settings</a>
+						<a href="#">Notifications</a>
+						<a href="LoginPage.html">Log Out</a>
+					</div>
+				</div>
+				<div>
+					<input class="searchbar" type="text" placeholder="Search">
+				</div>
+				<div>
+					<button class="searchbutton" type="submit" title="Search">&#128269;</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="brand-banner">
+			<img src="images/ASUSBanner.jpg" alt="ASUS Brand Banner">
+		</div>
+		
+		<h1 class="pageheading">Your Store <i>(4 products)</i></h1>
+
+		<div class="cartpagebody">
+			<div class="shoppingcarttopbuttons">
+				<div class="continueshopping">
+					<button class="searchbutton" type="button" title="Add a new product to your store">
+						<b>ADD A PRODUCT</b>
+					</button>
+				</div>
+			</div>
+			<br>
+			<div class="shoppingcarttable table-padright">
+				<table class="border-collapse">
+					<tr class="table-heading">
+						<th></th>
+						<th>Product</th>
+						<th>Current Price</th>
+						<th>Options</th>
+					</tr>
+					<tr>
+						<td>
+							<img src="images/Cooler.jpg" alt="ASUS CPU Cooler">
+						</td>
+						<td>
+							<a class="pagelinks" href="#">ASUS ROG STRIX Liquid CPU Cooler</a>
+							<p>Here is the new ASUS ROG CPU Cooler, best on the market.</p>
+						</td>
+						<td>
+							$319.00
+						</td>
+						<td>
+							
+							<p><button class="quantitybutton" type="button">Add Discount</button></p>
+							<p><button class="quantitybutton" type="button">Edit Listing</button></p>
+							<p><button class="quantitybutton" type="button">Remove Listing</button></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img src="images/GraphicsCard.jpg" alt="ASUS RTX2060 GPU">
+						</td>
+						<td>
+							<a class="pagelinks" href="#">ASUS RTX2060 6GB Graphics Card</a>
+							<p>Here is the new ASUS RTX2060 Graphics Card, best on the market.</p>
+							<p class="upcoming-sale">~~ "$100 off" sale scheduled in <u>8 days</u> ~~</p>
+						</td>
+						<td>
+							<p>$999.00</p>
+							<sup class="upcoming-sale">$899.00</sup>
+						</td>
+						<td>
+							
+							<p><button class="quantitybutton" type="button">Add Discount</button></p>
+							<p><button class="quantitybutton" type="button">Edit Listing</button></p>
+							<p><button class="quantitybutton" type="button">Remove Listing</button></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img src="images/Motherboard.jpg" alt="ASUS S1200 Motherboard">
+						</td>
+						<td>
+							<a class="pagelinks" href="#">ASUS S1200 MicroATX Motherboard</a>
+							<p>Here is the new ASUS S1200 Motherboard, best on the market.</p>
+							<p class="current-sale">~~ On Sale! 25% off ~~</p>
+						</td>
+						<td>
+							<p><b>$111.75</b></p>
+							<sup><del>$149.00</del></sup>
+						</td>
+						<td>
+							<p><button class="quantitybutton" type="button">Add Discount</button></p>
+							<p><button class="quantitybutton" type="button">Edit Listing</button></p>
+							<p><button class="quantitybutton" type="button">Remove Listing</button></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img src="images/ASUS-PSU.jpg" alt="ASUS 1000W Power Supply">
+						</td>
+						<td>
+							<a class="pagelinks" href="#">ASUS 1000W ROG STRIX Power Supply</a>
+							<p>Here is the new ASUS 1000W ROG STRIX Power Supply, best on the market.</p>
+							
+						</td>
+						<td>
+							$349.00
+							
+						</td>
+						<td>
+							<p><button class="quantitybutton" type="button">Add Discount</button></p>
+							<p><button class="quantitybutton" type="button">Edit Listing</button></p>
+							<p><button class="quantitybutton" type="button">Remove Listing</button></p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="helplinks">
+			<div class="customersupport">
+				<a class="pagelinks" href="#" title="Retailer Support">Retailer Support</a> 
+			</div>
+			<div>
+				<a class="pagelinks" href="#" title="FAQs">FAQs</a>
+				/
+				<a class="pagelinks" href="#" title="Help">Help</a>
+				/
+				<a class="pagelinks" href="#" title="Contact Us">Contact Us</a>
+			</div>
+		</div>
+	</footer>
+	
+</body>
+
+</html>
